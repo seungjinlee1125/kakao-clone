@@ -1,0 +1,71 @@
+.top-header.top-header--transparent{
+    background-color: transparent;
+}
+
+.profile .profile__header{
+    height : 70vh;
+    background-image : url('http://www.androidwallpper.com/wp-content/uploads/2017/01/android-lollipop-hd-wallpapers-for-android.jpg');
+    background-position: center right;
+    width : 100%;
+    position: relative;
+    top: -65px;
+    display : flex;
+    justify-content: flex-end;
+    align-items : center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile .profile__header img{
+    width : 100px;
+    border-radius: 50%;
+    margin-bottom : 5px;
+}
+
+.profile__header-container{
+    position: relative;
+    bottom : -50px;
+}
+
+.profile .profile__container{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__container input {
+    padding : 5px;
+    margin-bottom: 10px;
+    font-size : 10px;
+    text-align: center;
+    width : 130px;
+}
+
+.profile__container input:focus {
+    outline: none;
+}
+
+.profile__actions{
+    display: flex;
+}
+
+.profile__action{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right : 15px;
+    cursor: pointer;
+}
+
+.profile__action .profile__action-circle{
+    background-color: #F2F2F2;
+    padding : 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}   
+
+.profile__action-title  {
+    font-size : 12px;
+    font-weight: 600;
+}
+
